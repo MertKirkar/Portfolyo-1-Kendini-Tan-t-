@@ -1,38 +1,41 @@
-.App {
+.cvBody{
+  background-color: #efefef;
+  color: black;
+}
+.default-bg{
+  background-color: #efefef !important;
+}
+.buttons{
+  width: 250px;
+  color:antiquewhite;
+  font-weight: 700;
+  background-color: rgb(167, 52, 50);
+  border:none;
+  border-radius: 10px;
+  height: 70px;
   text-align: center;
+  padding: 5px;
+  margin-left:15px
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar{
+  width: 250px;
+  height: 250px;
+  border-radius: 90px;
+  background: transparent;
+  margin-bottom: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatarDiv{
+  width: 500px;
 }
+.navbarButton:hover{
+  
+background-color: rgb(124, 124, 124) !important;
+color:white !important;
+transition: all 0.5s;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbarButton{
+  font-weight: 600;
+  box-shadow: 0px 0px 10px -6px rgba(0,0,0,0.75) !important;
+  background-color: white !important;
 }
